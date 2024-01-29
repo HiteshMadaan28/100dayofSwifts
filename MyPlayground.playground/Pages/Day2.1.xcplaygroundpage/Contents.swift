@@ -9,7 +9,6 @@ print(arrOfDouble[1])
 //Appending into array
 
 arrOfStrings.append("Appending")
-
 print(String(arrOfInt[0])+arrOfStrings[1])
 
 //Another Declaration of An Arrays

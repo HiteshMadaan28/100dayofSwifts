@@ -10,7 +10,6 @@ print(Emp1["name",default :"Unknown"])
 print(Emp1["age",default :"Unknown"])
 print(Emp1["year",default :"Unknown"])
 
-
 //We can create [String:Int]
 let SI=[String:Int]()
 

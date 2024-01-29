@@ -11,6 +11,5 @@ enum weekDays{
     case saturday,sunday
 }
 
-
 var day=weekDays.friday
 day=weekDays.sunday
