@@ -29,7 +29,7 @@ print(arrOfInt.count)
 arrOfInt.remove(at: 2)
 print(arrOfInt)
 arrOfInt.removeAll()
-print(arrOfInt.count)
+print(String(arrOfInt.count))
 
 
 print(arrOfStrings.contains("hitesh"))

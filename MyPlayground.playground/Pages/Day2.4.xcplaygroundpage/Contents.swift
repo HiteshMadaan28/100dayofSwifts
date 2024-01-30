@@ -8,7 +8,8 @@ enum weekDays{
     case wednesday
     case thursday
     case friday
-    case saturday,sunday
+    case saturday
+    case sunday
 }
 
 var day=weekDays.friday

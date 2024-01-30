@@ -16,5 +16,7 @@ let SI=[String:Int]()
 //We can create [Int:String]
 let IS=[Int:String]()
 
+let SS=[String:String]()
+
 //Same Function used as in Array like count,removeall()
 

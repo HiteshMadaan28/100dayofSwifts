@@ -3,7 +3,8 @@ import Cocoa
 let name="Hitesh"
 //name="Atul"
 // var can be changed
-var greeting = "Hello, playground"
+var greet = "Hello, playground"
+
 
 var pname="Hitesh"
 print(pname)

@@ -1,7 +1,5 @@
-//: [Previous](@previous)
+import Cocoa
 
-import Foundation
-
-var greeting = "Hello, playground"
-
-//: [Next](@next)
+//Type annotations
+let surname:String="Madaan"
+var
