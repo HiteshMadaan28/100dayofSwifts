@@ -1,7 +1,13 @@
-//: [Previous](@previous)
+import Cocoa
 
-import Foundation
+var greatChoice=true
 
-var greeting = "Hello, playground"
+if greatChoice{
+    print("Smart Choice goooooodd")
+}
 
-//: [Next](@next)
+let score=85
+
+if score>80 {
+    print("Great Job")
+}
