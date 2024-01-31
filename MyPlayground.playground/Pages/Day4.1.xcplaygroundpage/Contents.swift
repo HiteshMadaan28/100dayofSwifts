@@ -16,9 +16,13 @@ if score>80 {
 let speed=23
 let age=19
 
-if(age>18){
+if(age>=18){
     print("Your elegible to vote")
 }
+else{
+    print("Not Elegible")
+}
+
 
 //They are used to check the String
 let ourName="Hitesh"
@@ -61,3 +65,12 @@ if(name.isEmpty){
 
 
 print(name)
+
+let temp=34
+
+enum transportOptions{
+    case car,airplane,train,cycle
+    
+}
+
+

@@ -1,7 +1,16 @@
-//: [Previous](@previous)
+import Cocoa
 
-import Foundation
+//Ternary Operator
 
-var greeting = "Hello, playground"
+let age=18
 
-//: [Next](@next)
+let canVote = age>=18 ? "Yes" : "NO"
+
+print(canVote)
+
+let hour=23
+print(hour<12 ? "Its afterNOo" : "NightTime")
+
+var a:[Int]=[]
+
+print(a.count==0 ? "Empty":"Not Empty")
