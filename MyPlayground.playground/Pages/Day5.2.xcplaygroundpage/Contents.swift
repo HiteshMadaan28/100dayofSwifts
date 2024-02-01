@@ -5,6 +5,7 @@ import Cocoa
 var countDown=10
 
 while(countDown>0){
+    
     print("\(countDown) ")
     countDown -= 1
 }
@@ -20,6 +21,7 @@ print(number)
 var roll=0
 
 while roll != 20{
+   
     print("This number is \(roll)")
     roll=Int.random(in: 1...20)
 }
