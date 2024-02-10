@@ -7,11 +7,17 @@ struct Employe{
     
     //Dynamically alocation to a variavle
     var vacationLeft:Int{
-        TotalVacation-vacationTaken
+        get{
+            TotalVacation-vacationTaken
+        }
+        set{
+            TotalVacation=vacationTaken + newValue
+        }
     }
     
 }
 
 var e1=Employe(name: "Hitesh", TotalVacation: 14)
 e1.vacationTaken+=4
-print(e1.vacationLeft)
+e1.vacationLeft=5
+print(e1.TotalVacation)
