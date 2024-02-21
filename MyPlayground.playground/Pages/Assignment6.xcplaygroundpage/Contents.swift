@@ -16,8 +16,8 @@ import Cocoa
 //}
 
 struct Car{
-    static private(set) let model="VX"
-    static private(set) let seats=5
+    static private let model="VX"
+    static private let seats=5
     static private var currentGear=9{
         willSet{
             print("Current Gear is \(newValue)")
