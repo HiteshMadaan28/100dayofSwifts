@@ -35,3 +35,9 @@ let b1=Book(title: "Harry porter", price: 3)
 var b2=Book(title: "Honey")
 
 print("\(b1.Char) and \(b2.Char)")
+
+extension Collection {
+    var isNotEmpty: Bool {
+        isEmpty == false
+    }
+}
