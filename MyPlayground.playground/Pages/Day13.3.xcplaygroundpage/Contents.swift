@@ -41,3 +41,7 @@ extension Collection {
         isEmpty == false
     }
 }
+
+var arr=[""]
+
+print(arr.isNotEmpty)
