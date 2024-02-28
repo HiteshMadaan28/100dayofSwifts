@@ -45,3 +45,12 @@ extension Collection {
 var arr=[""]
 
 print(arr.isNotEmpty)
+
+extension Numeric{
+    func squared()->Self{
+        self*self
+    }
+}
+
+let n=5;
+print(n.squared())
