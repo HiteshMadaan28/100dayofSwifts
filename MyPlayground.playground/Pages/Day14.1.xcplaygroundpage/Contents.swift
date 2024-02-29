@@ -1,7 +1,10 @@
 import Cocoa
 
 //Optionals in Swift
-let dic=["djfls":"fds","fs":"dsf"]
+let dic=["Djfls":"fds","fs":"dsf"]
+let a=["Honey","atul","hitesh",]
+let chosen=a.randomElement()?.uppercased() ?? "None"
+print(chosen)
 
 if let od=dic["hites"] {
     print("print the od \(od)")
@@ -21,3 +24,11 @@ func s(for n:Int?){
 }
 
 s(for:nil)
+
+//NIL coleasing operator  ??
+
+let aa=dic["er"] ?? "N/A"
+
+//Optional Chaining
+
+
