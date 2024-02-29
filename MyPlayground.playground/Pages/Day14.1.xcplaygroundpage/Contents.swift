@@ -10,3 +10,14 @@ if let od=dic["hites"] {
 }
 
 
+func s(for n:Int?){
+    guard let n = n else {
+        print("n is missing")
+        return
+    }
+    
+    print(n*n)
+    
+}
+
+s(for:nil)
